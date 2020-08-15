@@ -1,0 +1,14 @@
+[package]
+name = "reverse_integer"
+version = "0.1.0"
+authors = ["Patrice Petit <ppetit@wynd.eu>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+
+[lib]
+name = "reverse_integer"           # The name of the target.
+path = "src/lib.rs"    # The source file of the target.
+
+[dependencies]
